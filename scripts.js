@@ -154,3 +154,12 @@ function updateTotals(){
         
     }
 }
+
+// Evento que captura o clique nos itens da lista.
+expenseList.addEventListener("click", function (event){
+    // Verifica se o elemento clicado é o ícone de remover.
+    if(event.target.classList.contains("remove-icon")){
+
+        console.log(event)
+    }
+})
